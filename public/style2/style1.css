@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 100px auto;
+    width:80%;
+}
+hgroup h1 {
+    border-bottom: solid black 1px;
+    padding-bottom: 20px;
+}
+hgroup h2 {
+    display: none;
+}
+#about h3 {
+    display: none;
+}
+#about p {
+    padding-top: 20px;
+    width: 75%;
+}
+
+.skill[data-skill="5"] span::after {
+content: "\2605 \2605 \2605";
+}
+.skill[data-skill="3"] span::after {
+    content: "\2605 \2605";
+}
+.skill[data-skill="1"] span::after {
+    content: "\2605";
+}
+.skill[data-skill="9"] span::after {
+    content: "\2605 \2605 \2065 \2065 \2065";
+}
+.skill[data-skill="7"] span::after {
+    content: "\2605 \2605 \2605 \2605";
+    
+}
+.skill span {
+    display: flex;
+    justify-content: space-between;
+} 
+img {
+    height: 200px;
+    width: 200px;
+    transform: rotate(-15deg);
+}
+#competencies {
+    margin: 50px 0;
+}
+section h3 {
+    grid-row: 1/span 2;
+    width: 150px;
+    border-right: 2px solid gray;
+
+    
+} 
+.skills-primary {
+    /* display: flex; */
+
+}
+.skills-secondary {
+    /* display: flex; */
+}
+section {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.skills {
+    display: flex;
+}
+.skill {
+    background-color: #008080;
+    margin: 2px 0 8px 20px;
+    padding: 10px 2%;
+    width: 140px;
+    color: white;
+}
+#experiences {
+    margin-top: 50px;
+}
+.experience-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.experience {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.experience-type {
+    color: blue;
+}
+.experience-details {
+    color: gray;
+}
+.experience-institution {
+    display: none;
+}
+#education {
+    margin-top: 50px;
+}
+#hobbies {
+    margin-top: 50px;
+}
+ul {
+    margin-left: 50px;
+}
+.contact-email a{
+    content:url("../images/email.png") ;
+    height: 80px;
+    width: 80px;
+}
+.contact-phone a{
+    content: url("../images/phone.png") ;
+    height: 80px;
+    width: 80px;
+}
+.contact-github a{
+    content: url("../images/github.png");
+    height: 80px;
+    width: 80px;
+}
+.contact-facebook a{
+    content: url("../images/facebook.png") ;
+    height: 80px;
+    width: 80px;
+}
+.contact-type {
+    display: none;
+}
+.contact-skype dd {
+    display: none;
+}
+.contacts {
+    display: flex;
+    margin-left: 50%;
+    justify-content: space-between;
+    
+}
+a {
+    padding: 50px;
+}
+header figure {
+    position: absolute;
+    top: 90px;
+    right: 250px;
+}
